@@ -12,14 +12,14 @@
     </module>
 
     <module name="TreeWalker">
-
         <module name="AvoidStarImport"/>
         <module name="UnusedImports"/>
         <module name="NeedBraces"/>
         <module name="EmptyBlock"/>
         <module name="MethodName"/>
         <module name="TypeName"/>
-        <module name="VariableName"/>
+        <module name="LocalVariableName"/>
         <module name="ParameterName"/>
-
     </module>
+
+</module>
