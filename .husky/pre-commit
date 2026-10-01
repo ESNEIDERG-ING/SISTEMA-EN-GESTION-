@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Ejecutando pruebas antes del commit..."
+
+./mvnw test
+
+if [ $? -ne 0 ]; then
+    echo "Las pruebas fallaron. Commit cancelado."
+    exit 1
+fi
+
+echo "Pruebas exitosas. Commit permitido."

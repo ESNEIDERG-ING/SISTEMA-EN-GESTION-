@@ -26,7 +26,7 @@ Se recomienda utilizar los siguientes formatos:
 
 Ejemplos:
 
-```text
+text
 feature/login
 feature/registro-usuario
 feature/gestion-productos
