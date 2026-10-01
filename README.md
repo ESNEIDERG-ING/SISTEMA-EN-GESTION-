@@ -11,7 +11,20 @@ Estrategia de ramas
 
 Se utilizará una estrategia basada en GitFlow para organizar el desarrollo del proyecto.
 
+ Tecnologías
 
+- Java 17
+- Spring Boot
+- PostgreSQL
+- Maven
+- JUnit 5
+- Mockito
+- Checkstyle
+- Git
+- GitHub
+- GitHub Projects
+
+  
 gitGraph
    commit
    branch develop
